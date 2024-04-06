@@ -1,0 +1,30 @@
+version: '3.1'
+services:
+
+  frontend:
+    container_name: clientContainer
+    ports:
+      - 3000:3000
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+  
+  backend:
+    container_name: serverContainer
+    ports:
+      - 5000:5000
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    env_file:
+      - ./server/.env
+  
+  database:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - opt:/data/db
+
+volumes:
+  opt:
