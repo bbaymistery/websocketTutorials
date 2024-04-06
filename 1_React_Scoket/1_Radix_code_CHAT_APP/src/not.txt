@@ -1,0 +1,9 @@
+https://reactstrap.github.io/?path=/story/home-installation--page
+
+https://www.youtube.com/watch?v=jwbPQZPgzhA&list=PLYPFxrXyK0ByCS-KG6BZYEoXOkRugZuLD&index=8
+
+
+https://github.com/iaz33m/Socket.io-v2-Chat-App/blob/master/src/server/PublicChat.js
+front end qismini elemiyib sadece server gismi olunub (Tutorialda eksik var)
+Mesela public chat front end gismi galb 
+Room chat front end gismi galb
