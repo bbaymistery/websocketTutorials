@@ -1,0 +1,7 @@
+https://socket.io/get-started/private-messaging-part-1/#how-it-works 
+
+https://socket.io/get-started/private-messaging-part-2/#private-messaging-updated
+
+
+
+1 ve iki vue js file convert olunub react js e elenmeye calisldi Ama Soncu istedigimiz gibi omadi
